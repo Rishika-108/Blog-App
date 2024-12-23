@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Blog App
+
+Welcome to the **Blog App**, a Next.js-based web application designed for users to read, write, edit, and manage blog content seamlessly. This application leverages the full power of Next.js to offer a fast and intuitive user experience with server-side rendering capabilities.
+
+## Features
+
+- **User Authentication**: Register, log in, and manage user profiles.
+- **CRUD Functionality**: Create, read, update, and delete blog posts.
+- **Rich Content Support**: Use markdown and text formatting for posts.
+- **Responsive Design**: Optimized for all devices using Next.js.
+- **Dynamic Client-Side Loading**: Ensures smooth performance.
+
+## Tech Stack
+
+- **Frontend**: Next.js for React-based application development.
+- **Styling**: Tailwind CSS for a clean, responsive design.
+- **State Management**: No external state management library (data managed via props and state).
+- **API**: Server-side rendering and API endpoints provided by Next.js.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Rishika-108/Blog-App.git
+   cd Blog-App
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Start Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. **Open in Browser**:
+   Visit `http://localhost:3000` to see the live app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deployment
+
+The app is deployed using Vercel. Learn more about deploying Next.js apps [here](https://vercel.com).
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js Documentation**: [Learn more about Next.js](https://nextjs.org/docs)
+- **Tailwind CSS**: [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to fork the repository and make your changes. Pull requests are welcome.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
