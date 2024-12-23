@@ -28,7 +28,7 @@ const Header = () => {
       </div>
       <div className='text-center my-8'>
         <h1 className='text-3xl sm:text-5xl font-medium'>Latest Blogs</h1>
-        <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-base'>Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.</p>
+        <p className='mt-10 max-w-[740px] m-auto text-xs sm:text-base'>Welcome to my world of digital craftsmanship. Explore projects that merge cutting-edge tech with user-centric design.Immerse yourself with projects built with passion, precision, and a vision for impactful technology.</p>
          <form onSubmit={onSubmitHandler} action="" className='flex justify-between max-w-[500px] scale-75 sm:scale-100 mx-auto mt-10 border border-black shadow-[-7px_7px_0px_#000000]'>
             <input onChange={(e)=>setEmail(e.target.value)} value={email} type="email" placeholder='Enter your email' className='pl-4 outline-none' />
             <button type='submit' className='border-l border-black py-4 px-4 sm:px-8 active:bg-gray-600 active:text-white'>Subscribe</button>
